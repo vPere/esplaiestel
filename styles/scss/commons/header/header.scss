@@ -13,4 +13,12 @@
         color: $blau-esplai;
         font-family: "Ubuntu";
     }
+    .social-media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .social {
+            width: 30px;
+        }
+    }
 }

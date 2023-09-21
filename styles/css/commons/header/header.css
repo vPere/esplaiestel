@@ -7,3 +7,9 @@
   .header .title {
     color: #264690;
     font-family: "Ubuntu"; }
+  .header .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .header .social-media .social {
+      width: 30px; }
