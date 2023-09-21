@@ -4,7 +4,7 @@
   "description": "Pagina web de l'esplai estel de barcelona",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w styles/ -o css/"
+    "sass": "node-sass -w styles/scss -o styles/css/"
   },
   "repository": {
     "type": "git",
