@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Your Website Title</title>
-</head>
+<link rel="stylesheet" href="commons/header/header.css" type="text/css">
 <body>
     <div class="header">
         <h1>Esplai Estel</h1>
