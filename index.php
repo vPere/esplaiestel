@@ -2,11 +2,7 @@
 <html>
 <head>
     <title>Esplai Estel de Barcelona</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
-<body>
-    <h1>Hello, World!</h1>
-    <?php
-        echo "This is a PHP message: Hello, World!";
-    ?>
-</body>
+    <?php include 'commons/header/header.php';?>
 </html>
