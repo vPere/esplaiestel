@@ -1,0 +1,22 @@
+{
+  "name": "esplaiestel",
+  "version": "1.0.0",
+  "description": "Pagina web de l'esplai estel de barcelona",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w styles/ -o css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vPere/esplaiestel.git"
+  },
+  "author": "vPere",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vPere/esplaiestel/issues"
+  },
+  "homepage": "https://github.com/vPere/esplaiestel#readme",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
