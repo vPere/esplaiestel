@@ -1,15 +1,43 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif; }
+
+span, p, a, li, input, textarea, button {
+  font-family: 'Roboto', sans-serif; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
 .header {
   display: flex;
-  justify-content: center;
-  background-color: white; }
-  .header .logo-container .logo {
-    width: 100px; }
-  .header .title {
-    color: #264690;
-    font-family: "Ubuntu"; }
+  justify-content: space-between;
+  width: 100%;
+  background-color: ghostwhite; }
+  .header .logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%; }
+    .header .logo-container .logo {
+      width: 100px; }
+  .header .title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    width: 40%;
+    padding: 30px;
+    gap: 10px; }
+    .header .title-container .title {
+      margin: 0; }
+    .header .title-container .subtitle {
+      margin: 0; }
   .header .social-media {
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    width: 30%; }
     .header .social-media .social {
-      width: 30px; }
+      width: 30px;
+      margin: 5px; }
