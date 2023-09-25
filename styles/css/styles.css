@@ -134,3 +134,36 @@ span, p, a, li, input, textarea, button {
       height: 200px;
       top: 0;
       left: 0; }
+
+.page-body {
+  display: flex;
+  width: 100%;
+  margin: 0 20px 0 20px;
+  padding: 0;
+  gap: 10px; }
+  .page-body .main-page-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 80%;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black; }
+  .page-body .main-page-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 15%;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: ghostwhite; }

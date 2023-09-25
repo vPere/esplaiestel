@@ -1,28 +1,11 @@
 @import "../../variables";
 @import "../../fonts";
 
-body {
-    margin: 0;
-    padding: 0;
-    background-color: ghostwhite;
-}
-
 .header {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
-    transition: transform 400ms cubic-bezier(.25,.37,.17,.96);
-}
-
-/* When header is not in viewport we hide it */
-.header[data-scroll="out"] {
-    transform: translatey(-100%);
-}
-
-/* When moving up and header we show it */
-[data-scroll-dir-y="-1"] .header {
-    transform: translatey(0);
 }
 
 .header-container {
@@ -106,9 +89,15 @@ body {
         height: 100%;
         width: 100%;
         padding: 15px;
+        position: relative;
+        z-index: 100;
         &.follets {
             background-color: $color-follets;
             &:hover {
+                .grup-item-container {
+                    display: flex;
+                    background-color: $color-follets;
+                }
                 .hover-image {
                     display: block;
                 }
@@ -117,6 +106,10 @@ body {
         &.espurnes {
             background-color: $color-espurnes;
             &:hover {
+                .grup-item-container {
+                    display: flex;
+                    background-color: $color-espurnes;
+                }
                 .hover-image {
                     display: block;
                 }
@@ -125,6 +118,10 @@ body {
         &.barrufets {
             background-color: $color-barrufets;
             &:hover {
+                .grup-item-container {
+                    display: flex;
+                    background-color: $color-barrufets;
+                }
                 .hover-image {
                     display: block;
                 }
@@ -133,6 +130,10 @@ body {
         &.piques {
             background-color: $color-piques;
             &:hover {
+                .grup-item-container {
+                    display: flex;
+                    background-color: $color-piques;
+                }
                 .hover-image {
                     display: block;
                 }
@@ -141,6 +142,10 @@ body {
         &.exploradors {
             background-color: $color-exploradors;
             &:hover {
+                .grup-item-container {
+                    display: flex;
+                    background-color: $color-exploradors;
+                }
                 .hover-image {
                     display: block;
                 }
@@ -149,14 +154,28 @@ body {
         &.vigies {
             background-color: $color-vigies;
             &:hover {
+                .grup-item-container {
+                    display: flex;
+                    background-color: $color-vigies;
+                }
                 .hover-image {
                     display: block;
                 }
             }
         }
+        .grup-item-container {
+            display: none;
+            position: absolute;
+            width: 100%;
+            justify-content: center;
+            padding: 30px 0;
+            top: 0;
+        }
         .hover-image {
             display: none;
             height: 200px;
+            top: 0;
+            left: 0;
         }
     }
 }
