@@ -1,5 +1,8 @@
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto', sans-serif; }
+  font-family: "Lato", sans-serif; }
+
+h1 {
+  font-size: 36px; }
 
 span, p, a, li, input, textarea, button {
   font-family: 'Roboto', sans-serif; }
@@ -32,7 +35,8 @@ span, p, a, li, input, textarea, button {
     padding: 30px;
     gap: 10px; }
     .header-container .title-container .title {
-      margin: 0; }
+      margin: 0;
+      font-weight: bolder; }
     .header-container .title-container .subtitle {
       margin: 0; }
   .header-container .social-media {
