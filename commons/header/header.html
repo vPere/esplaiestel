@@ -1,16 +1,23 @@
 <link rel="stylesheet" href="../../styles/css/commons/header/header.css" type="text/css">
+<link rel="shortcut icon" href="../../assets/favicon.ico">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 <body>
-<header>
-    <div class="header">
+<script>
+    ScrollOut({
+        cssProps: true,
+        threshold: 0.2
+    });
+</script>
+<header class="header">
+    <div class="header-container">
         <div class="logo-container">
             <img src="assets/logo_transparent.png" class="logo" alt="logo">
         </div>
         <div class="title-container">
             <h1 class="title">Esplai Estel</h1>
-            <p class="subtitle">Educant en el lleure des de 1973</p>
+            <p class="subtitle">Educant en el lleure des de <span style="background: #ffe200; padding:2px">1973</span></p>
         </div>
         <div class="social-media">
             <a href="https://www.facebook.com/EsplaiEstel/" target="_blank"><img src="assets/social/facebook.svg" class="social" alt="facebook"></a>
@@ -19,4 +26,24 @@
             <a href="https://www.instagram.com/esplaiestel/" target="_blank"><img src="assets/social/instagram.svg" class="social" alt="instagram"></a>
         </div>
     </div>
+    <nav>
+        <ul class="nav-container">
+            <li class="nav-item"><a href="index.php">Inici</a></li>
+            <li class="nav-item"><a href="qui-som.php">Esplai</a></li>
+            <li class="nav-item"><a href="que-fem.php">Secretaria</a></li>
+            <li class="nav-item"><a href="on-som.php">Inscripcions</a></li>
+            <li class="nav-item"><a href="on-som.php">Grups</a></li>
+            <li class="nav-item"><a href="contacte.php">Contacte</a></li>
+        </ul>
+    </nav>
+    <nav>
+        <ul class="grups-container">
+            <li class="grup-item follets"><a href="index.php"><img class="hover-image" src="../../assets/follets.jpg"></a></li>
+            <li class="grup-item espurnes"><a href="index.php"><img class="hover-image" src="../../assets/espurnes.jpg"></a></li>
+            <li class="grup-item barrufets"><a href="index.php"><img class="hover-image" src="../../assets/barrufets.jpg"></a></li>
+            <li class="grup-item piques"><a href="index.php"><img class="hover-image" src="../../assets/picasoques.jpg"></a></li>
+            <li class="grup-item exploradors"><a href="index.php"><img class="hover-image" src="../../assets/exploradors.jpg"></a></li>
+            <li class="grup-item vigies"><a href="index.php"><img class="hover-image" src="../../assets/vigies.jpg"></a></li>
+        </ul>
+    </nav>
 </header>
