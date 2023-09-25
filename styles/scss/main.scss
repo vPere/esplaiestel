@@ -1,5 +1,14 @@
 @import "variables";
 
+.main-carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel {
+  max-width: 66.66%;
+  margin: 0 auto;
+}
 .page-body {
   display: flex;
   width: 100%;
