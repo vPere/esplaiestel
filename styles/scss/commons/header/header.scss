@@ -4,6 +4,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: ghostwhite;
 }
 
 .header {
@@ -12,7 +13,6 @@ body {
     left: 0;
     right: 0;
     transition: transform 400ms cubic-bezier(.25,.37,.17,.96);
-    background-color: ghostwhite;
 }
 
 /* When header is not in viewport we hide it */
@@ -32,11 +32,11 @@ body {
     .logo-container {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         width: 30%;
         .logo {
-            width: 150px;
+            height: 100px;
         }
     }
     .title-container {

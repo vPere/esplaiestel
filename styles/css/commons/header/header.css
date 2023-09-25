@@ -6,15 +6,15 @@ span, p, a, li, input, textarea, button {
 
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background-color: ghostwhite; }
 
 .header {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  transition: transform 400ms cubic-bezier(0.25, 0.37, 0.17, 0.96);
-  background-color: ghostwhite; }
+  transition: transform 400ms cubic-bezier(0.25, 0.37, 0.17, 0.96); }
 
 /* When header is not in viewport we hide it */
 .header[data-scroll="out"] {
@@ -31,11 +31,11 @@ body {
   .header-container .logo-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     width: 30%; }
     .header-container .logo-container .logo {
-      width: 150px; }
+      height: 100px; }
   .header-container .title-container {
     display: flex;
     flex-direction: column;
