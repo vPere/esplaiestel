@@ -77,6 +77,18 @@
     }
 }
 
+.grups-nav {
+    &:hover {
+        .hover-image {
+            display: block;
+            height: 300px;
+        }
+        .grup-item-container {
+            top: 0;
+            max-height: 300px;
+        }
+    }
+}
 .grups-container {
     display: flex;
     list-style: none;
@@ -94,89 +106,57 @@
         z-index: 100;
         &.follets {
             background-color: $color-follets;
-            &:hover {
-                .grup-item-container {
-                    display: flex;
-                    background-color: $color-follets;
-                }
-                .hover-image {
-                    display: block;
-                }
+            .grup-item-container {
+                background-color: $color-follets;
             }
         }
         &.espurnes {
             background-color: $color-espurnes;
-            &:hover {
-                .grup-item-container {
-                    display: flex;
-                    background-color: $color-espurnes;
-                }
-                .hover-image {
-                    display: block;
-                }
+            .grup-item-container {
+                background-color: $color-espurnes;
             }
         }
         &.barrufets {
             background-color: $color-barrufets;
-            &:hover {
-                .grup-item-container {
-                    display: flex;
-                    background-color: $color-barrufets;
-                }
-                .hover-image {
-                    display: block;
-                }
+            .grup-item-container {
+                background-color: $color-barrufets;
             }
         }
         &.piques {
             background-color: $color-piques;
-            &:hover {
-                .grup-item-container {
-                    display: flex;
-                    background-color: $color-piques;
-                }
-                .hover-image {
-                    display: block;
-                }
+            .grup-item-container {
+                background-color: $color-piques;
             }
         }
         &.exploradors {
             background-color: $color-exploradors;
-            &:hover {
-                .grup-item-container {
-                    display: flex;
-                    background-color: $color-exploradors;
-                }
-                .hover-image {
-                    display: block;
-                }
+            .grup-item-container {
+                background-color: $color-exploradors;
             }
         }
         &.vigies {
             background-color: $color-vigies;
-            &:hover {
-                .grup-item-container {
-                    display: flex;
-                    background-color: $color-vigies;
-                }
-                .hover-image {
-                    display: block;
-                }
+            .grup-item-container {
+                background-color: $color-vigies;
             }
         }
-        .grup-item-container {
-            display: none;
-            position: absolute;
-            width: 100%;
-            justify-content: center;
-            padding: 30px 0;
-            top: 0;
-        }
-        .hover-image {
-            display: none;
-            height: 200px;
-            top: 0;
-            left: 0;
-        }
+    }
+    .grup-item-container {
+        display: block;
+        position: absolute;
+        width: 100%;
+        justify-content: center;
+        padding: 0;
+        top: -300px; // Initially position it above the viewport
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-in-out;
+    }
+    .hover-image {
+        display: none;
+        height: 0;
+        transition: height 0.2s ease-in-out;
+        top: 0;
+        left: 0;
     }
 }

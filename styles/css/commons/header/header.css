@@ -69,6 +69,14 @@ span, p, a, li, input, textarea, button {
       font-size: 1.2rem;
       font-weight: bold; }
 
+.grups-nav:hover .hover-image {
+  display: block;
+  height: 300px; }
+
+.grups-nav:hover .grup-item-container {
+  top: 0;
+  max-height: 300px; }
+
 .grups-container {
   display: flex;
   list-style: none;
@@ -86,55 +94,41 @@ span, p, a, li, input, textarea, button {
     z-index: 100; }
     .grups-container .grup-item.follets {
       background-color: #00c4ec; }
-      .grups-container .grup-item.follets:hover .grup-item-container {
-        display: flex;
+      .grups-container .grup-item.follets .grup-item-container {
         background-color: #00c4ec; }
-      .grups-container .grup-item.follets:hover .hover-image {
-        display: block; }
     .grups-container .grup-item.espurnes {
       background-color: #ffe200; }
-      .grups-container .grup-item.espurnes:hover .grup-item-container {
-        display: flex;
+      .grups-container .grup-item.espurnes .grup-item-container {
         background-color: #ffe200; }
-      .grups-container .grup-item.espurnes:hover .hover-image {
-        display: block; }
     .grups-container .grup-item.barrufets {
       background-color: #ff9900; }
-      .grups-container .grup-item.barrufets:hover .grup-item-container {
-        display: flex;
+      .grups-container .grup-item.barrufets .grup-item-container {
         background-color: #ff9900; }
-      .grups-container .grup-item.barrufets:hover .hover-image {
-        display: block; }
     .grups-container .grup-item.piques {
       background-color: #ff4b3a; }
-      .grups-container .grup-item.piques:hover .grup-item-container {
-        display: flex;
+      .grups-container .grup-item.piques .grup-item-container {
         background-color: #ff4b3a; }
-      .grups-container .grup-item.piques:hover .hover-image {
-        display: block; }
     .grups-container .grup-item.exploradors {
       background-color: #00c04c; }
-      .grups-container .grup-item.exploradors:hover .grup-item-container {
-        display: flex;
+      .grups-container .grup-item.exploradors .grup-item-container {
         background-color: #00c04c; }
-      .grups-container .grup-item.exploradors:hover .hover-image {
-        display: block; }
     .grups-container .grup-item.vigies {
       background-color: #264690; }
-      .grups-container .grup-item.vigies:hover .grup-item-container {
-        display: flex;
+      .grups-container .grup-item.vigies .grup-item-container {
         background-color: #264690; }
-      .grups-container .grup-item.vigies:hover .hover-image {
-        display: block; }
-    .grups-container .grup-item .grup-item-container {
-      display: none;
-      position: absolute;
-      width: 100%;
-      justify-content: center;
-      padding: 30px 0;
-      top: 0; }
-    .grups-container .grup-item .hover-image {
-      display: none;
-      height: 200px;
-      top: 0;
-      left: 0; }
+  .grups-container .grup-item-container {
+    display: block;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+    top: -300px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out; }
+  .grups-container .hover-image {
+    display: none;
+    height: 0;
+    transition: height 0.2s ease-in-out;
+    top: 0;
+    left: 0; }
