@@ -11,5 +11,11 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: ghostwhite;
+  height: 100%;
+  background-color: #E6E6FA;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
 }
