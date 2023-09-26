@@ -1,0 +1,14 @@
+.grup-menu-item {
+  &.espurnes {
+    &:hover {
+      background-color: $color-espurnes !important;
+    }
+  }
+}
+.grup-logo {
+  &.espurnes {
+    background-color: $color-espurnes !important;
+    &:hover {
+    }
+  }
+}

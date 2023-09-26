@@ -252,11 +252,23 @@ span, p, a, li, input, textarea, button {
       width: 300px;
       height: 300px; }
 
-.grup-menu-item:hover {
-  background-color: #00c4ec; }
+.grup-menu-item.follets:hover {
+  background-color: #00c4ec !important; }
 
-.grup-logo {
-  background-color: #00c4ec; }
+.grup-logo.follets {
+  background-color: #00c4ec !important; }
+
+.grup-menu-item.espurnes:hover {
+  background-color: #ffe200 !important; }
+
+.grup-logo.espurnes {
+  background-color: #ffe200 !important; }
+
+.grup-menu-item.barrufets:hover {
+  background-color: #ff9900 !important; }
+
+.grup-logo.barrufets {
+  background-color: #ff9900 !important; }
 
 body {
   margin: 0;

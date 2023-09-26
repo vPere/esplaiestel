@@ -1,8 +1,14 @@
 .grup-menu-item {
-  &:hover {
-    background-color: $color-follets;
+  &.follets {
+    &:hover {
+      background-color: $color-follets !important;
+    }
   }
 }
 .grup-logo {
-  background-color: $color-follets;
+  &.follets {
+    background-color: $color-follets !important;
+    &:hover {
+    }
+  }
 }

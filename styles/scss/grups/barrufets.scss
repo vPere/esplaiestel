@@ -1,0 +1,14 @@
+.grup-menu-item {
+  &.barrufets {
+    &:hover {
+      background-color: $color-barrufets !important;
+    }
+  }
+}
+.grup-logo {
+  &.barrufets {
+    background-color: $color-barrufets !important;
+    &:hover {
+    }
+  }
+}
