@@ -68,6 +68,39 @@ span, p, a, li, input, textarea, button {
       color: black;
       font-size: 1.2rem;
       font-weight: bold; }
+  .nav-container .dropdown {
+    position: relative;
+    display: inline-block; }
+  .nav-container .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    top: 100%;
+    left: 0;
+    z-index: 200; }
+  .nav-container .dropdown-content a {
+    color: black !important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; }
+    .nav-container .dropdown-content a.dropdown-follets {
+      background-color: #00c4ec; }
+    .nav-container .dropdown-content a.dropdown-espurnes {
+      background-color: #ffe200; }
+    .nav-container .dropdown-content a.dropdown-barrufets {
+      background-color: #ff9900; }
+    .nav-container .dropdown-content a.dropdown-picasoques {
+      background-color: #ff4b3a; }
+    .nav-container .dropdown-content a.dropdown-exploradors {
+      background-color: #00c04c; }
+    .nav-container .dropdown-content a.dropdown-vigies {
+      background-color: #264690; }
+  .nav-container .dropdown-content a:hover {
+    background-color: #ddd; }
+  .nav-container .dropdown:hover .dropdown-content {
+    display: block; }
 
 .grups-nav:hover .hover-image {
   display: block;
