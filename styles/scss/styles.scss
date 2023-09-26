@@ -1,6 +1,10 @@
+@import "variables";
+@import "fonts";
 @import "commons/header/header";
 @import "commons/footer/footer";
 @import "main";
+@import "grups/all_grups";
+@import "grups/follets";
 
 body {
   margin: 0;
