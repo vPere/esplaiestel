@@ -1,0 +1,14 @@
+.grup-menu-item {
+  &.exploradors {
+    &:hover {
+      background-color: $color-exploradors !important;
+    }
+  }
+}
+.grup-logo {
+  &.exploradors {
+    background-color: $color-exploradors !important;
+    &:hover {
+    }
+  }
+}

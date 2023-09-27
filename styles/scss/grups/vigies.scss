@@ -1,0 +1,14 @@
+.grup-menu-item {
+  &.vigies {
+    &:hover {
+      background-color: $color-vigies !important;
+    }
+  }
+}
+.grup-logo {
+  &.vigies {
+    background-color: $color-vigies !important;
+    &:hover {
+    }
+  }
+}

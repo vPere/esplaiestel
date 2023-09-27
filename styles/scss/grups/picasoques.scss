@@ -1,0 +1,14 @@
+.grup-menu-item {
+  &.picasoques {
+    &:hover {
+      background-color: $color-piques !important;
+    }
+  }
+}
+.grup-logo {
+  &.picasoques {
+    background-color: $color-piques !important;
+    &:hover {
+    }
+  }
+}

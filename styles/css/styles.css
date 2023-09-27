@@ -303,6 +303,24 @@ span, p, a, li, input, textarea, button {
 .grup-logo.barrufets {
   background-color: #ff9900 !important; }
 
+.grup-menu-item.picasoques:hover {
+  background-color: #ff4b3a !important; }
+
+.grup-logo.picasoques {
+  background-color: #ff4b3a !important; }
+
+.grup-menu-item.exploradors:hover {
+  background-color: #00c04c !important; }
+
+.grup-logo.exploradors {
+  background-color: #00c04c !important; }
+
+.grup-menu-item.vigies:hover {
+  background-color: #264690 !important; }
+
+.grup-logo.vigies {
+  background-color: #264690 !important; }
+
 html, body {
   margin: 0;
   padding: 0;
