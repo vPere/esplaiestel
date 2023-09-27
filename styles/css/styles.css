@@ -250,6 +250,15 @@ span, p, a, li, input, textarea, button {
       border: none !important;
       border-radius: 0 !important; }
 
+.triptic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+  .triptic .triptic-image {
+    max-width: 66.66%;
+    max-height: 70vh; }
+
 .grup-page {
   display: flex;
   flex-direction: column; }
