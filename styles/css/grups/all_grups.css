@@ -9,7 +9,8 @@
 
 .grup-page {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  height: 69vh; }
   .grup-page .grup-title {
     display: flex;
     align-items: center;

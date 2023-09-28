@@ -3,7 +3,7 @@ function loadContent(): void
 {
     if (isset($_GET['page'])) {
         $page = $_GET['page'];
-        include 'commons/' . $page . '/' . $page . '.html';
+        include $page . '/' . $page . '.html';
     } elseif (isset($_GET['grup'])) {
         $grup = $_GET['grup'];
         if (isset($_GET['content'])) {

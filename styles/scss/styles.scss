@@ -10,12 +10,23 @@
 @import "grups/picasoques";
 @import "grups/exploradors";
 @import "grups/vigies";
+@import "pages/inscripcions";
 
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
   background-color: #E6E6FA;
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+    border-radius: 100px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: lightgray;
+  }
 }
 
 body {
