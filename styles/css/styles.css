@@ -373,6 +373,11 @@ span, p, a, li, input, textarea, button {
         padding: 30px;
         background-color: #e0e0e0; }
 
+.calendar {
+  display: flex;
+  height: 100vh;
+  padding: 10px 16.66% 10px 16.66%; }
+
 html, body {
   margin: 0;
   padding: 0;
