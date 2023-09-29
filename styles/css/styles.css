@@ -377,6 +377,67 @@ span, p, a, li, input, textarea, button {
   height: 100vh;
   padding: 10px 16.66% 10px 16.66%; }
 
+.contacte {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%; }
+  .contacte .contacte-page-container {
+    display: flex;
+    flex-direction: column;
+    width: 66.66%;
+    padding: 30px;
+    background-color: whitesmoke; }
+    .contacte .contacte-page-container .general-contacts {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      background-color: #e0e0e0;
+      gap: 20px; }
+      .contacte .contacte-page-container .general-contacts .contact-links-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%; }
+    .contacte .contacte-page-container .grup-contacts {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      gap: 20px;
+      background-color: #e0e0e0; }
+      .contacte .contacte-page-container .grup-contacts .grup-contacts-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%; }
+        .contacte .contacte-page-container .grup-contacts .grup-contacts-container .grup-contact {
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+  .contacte .contact-logo {
+    width: 100px;
+    margin: 0 10px 20px 10px;
+    color: #264690; }
+    .contacte .contact-logo svg {
+      width: 100px;
+      height: 100px; }
+    .contacte .contact-logo.follets {
+      color: #00c4ec !important; }
+    .contacte .contact-logo.espurnes {
+      color: #ffe200 !important; }
+    .contacte .contact-logo.barrufets {
+      color: #ff9900 !important; }
+    .contacte .contact-logo.picasoques {
+      color: #ff4b3a !important; }
+    .contacte .contact-logo.exploradors {
+      color: #00c04c !important; }
+    .contacte .contact-logo.vigies {
+      color: #264690 !important; }
+
 html, body {
   margin: 0;
   padding: 0;
