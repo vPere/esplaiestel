@@ -198,14 +198,9 @@ span, p, a, li, input, textarea, button {
       .footer .footer-container .patrocinadors-container .patrocinadors {
         width: 80%; }
 
-.main-carousel-container {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
 .carousel {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
   margin: 0 auto; }
 
 .carousel-row {
@@ -454,3 +449,21 @@ html, body {
 body {
   display: flex;
   flex-direction: column; }
+
+@media screen and (max-width: 768px) {
+  .main-carousel-container {
+    display: none; }
+  .main-carousel-container-sm {
+    display: flex; }
+  .page-body {
+    flex-direction: column; }
+    .page-body .main-page-left {
+      width: 100%; }
+    .page-body .main-page-right {
+      width: 100%; } }
+
+@media (min-width: 768px) {
+  .main-carousel-container {
+    display: flex; }
+  .main-carousel-container-sm {
+    display: none; } }

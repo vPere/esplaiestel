@@ -1,6 +1,9 @@
 <div class="main-carousel-container">
     <?php include 'commons/carousel/carousel.html';?>
 </div>
+<div class="main-carousel-container-sm">
+    <?php include 'commons/carousel/carousel-sm.html';?>
+</div>
 <div class="page-body">
     <div class="main-page-left">
         <h1>Aquí segurament hi posarem algun banner amb el cartell del curs per exemple</h1>
